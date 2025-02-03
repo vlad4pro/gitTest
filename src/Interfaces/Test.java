@@ -5,11 +5,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Animal animal1= new Animal(1);
-        Person person1 = new Person("Bob");
-        animal1.sleep();
-        person1.sayHello();
+        Animal animal = new Animal(1);
+        Person person = new Person("Bob");
+        animal.sleep();
 
+        person.sayHello();
+
+        person.showInfo();
 
     }
 
